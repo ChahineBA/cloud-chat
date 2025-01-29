@@ -1,7 +1,7 @@
 import streamlit as st
 from prompts import agent_executor
 from langchain_core.messages import HumanMessage
-st.title("DepMate")
+st.title("DeepMate")
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
